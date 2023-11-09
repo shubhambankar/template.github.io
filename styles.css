@@ -1,0 +1,715 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.introSection {
+    height: 100vh;
+    background-image: url(images/101.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.introText{
+    width: 50vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.socialIcons{
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+}
+* h2 {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+* hr {
+    margin: 10px !important;
+}
+
+.introSection h1 {
+    font-size: 4rem;
+    /* margin-top: 200px; */
+    
+}
+.introSection p {
+    font-size: 1.5rem;
+}
+
+.aboutSection {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 4vw !important;
+    padding-right: 4vw !important;
+}
+
+.mainFact {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 4vw !important;
+    padding-right: 4vw !important;
+}
+
+.avtar {
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.mainTestimonials {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 4vw !important;
+    padding-right: 4vw !important;
+}
+
+.infoSection {
+    list-style-type: none;
+    padding: 0;
+}
+
+.factSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30vh;
+}
+
+#myProgress {
+    width: 100%;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+#myBar {
+    width: 1%;
+    height: 15px;
+    background-color: #0d6efd;
+    border-radius: 10px;
+}
+
+
+.experienceSection {
+    width: 80vw;
+}
+
+.firstSection {
+    padding-left: 20px;
+}
+
+.secondSection {
+    padding-left: 20px;
+}
+
+.thirdSection {
+    padding-left: 20px;
+}
+
+.vr1 {
+    position: absolute;
+    border-left: 3px solid #0d6efd;
+    height: 190px;
+    margin-top: 50px;
+}
+
+.vr2 {
+    position: absolute;
+    border-left: 3px solid #0d6efd;
+    height: 448px;
+    margin-top: 9px;
+}
+
+.vr3 {
+    position: absolute;
+    border-left: 3px solid #0d6efd;
+    height: 600px;
+    margin-top: 51px;
+}
+
+.servicesCard {
+    padding: 3rem;
+}
+
+.mainServices {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 4vw !important;
+    padding-right: 4vw !important;
+}
+
+.infoSection {
+    list-style-type: none;
+}
+
+.grayLine {
+    position: relative;
+    height: 1px !important;
+    width: 120px;
+}
+
+.blueLine {
+    position: absolute;
+    height: 5px !important;
+    color: #0d6efd;
+    width: 40px;
+}
+
+.Lines {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardShadow {
+    box-shadow: 1px 1px 20px gray;
+}
+
+.infoSection li {
+    /* padding: 10px; */
+    margin-bottom: 1rem;
+}
+
+.tab-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolioButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.portfolioButtons ul li {
+    padding: 10px;
+}
+
+.mainPortfolio {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 4vw !important;
+    padding-right: 4vw !important;
+}
+
+
+.aboutImage {
+    margin-top: 25px;
+    margin-left: 150px;
+    margin-right: auto;
+    width: 65%;
+    height: 350px;
+}
+
+.text-end {
+    float: right;
+}
+
+.contactSection {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 4vw !important;
+    padding-right: 4vw !important;
+}
+
+.contactSection p {
+    margin-left: 25px;
+}
+
+.contactSection i {
+    font-size: 1rem;
+}
+
+.contactSection button {
+    width: 170px;
+}
+
+.icons {
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.skillSection {
+    height: 50vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 4vw !important;
+    padding-right: 4vw !important;
+
+}
+
+.skillSection p {
+    margin: 0px;
+    padding: 10px;
+}
+
+.rightPara {
+    float: right;
+}
+
+
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white !important;
+}
+
+.mainResume {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 4vw !important;
+    padding-right: 4vw !important;
+}
+
+.percentage {
+    padding: 5px;
+    display: block;
+    background-color: #0d6efd;
+    border-radius: 5px;
+    animation: progress 1500ms ease-in 1;
+}
+
+.html {
+    width: 100%;
+}
+
+.css {
+    width: 90%;
+}
+
+.javascript {
+    width: 75%;
+}
+
+.php {
+    width: 80%;
+}
+
+.wordpress {
+    width: 90%;
+}
+
+.photoshop {
+    width: 55%;
+}
+
+@keyframes progress {
+    from {
+        width: 0;
+    }
+}
+
+.mainFooterIntro {
+    margin-bottom: 0 !important;
+    margin-top: 50px;
+    padding-left: 4vw !important;
+    padding-right: 4vw !important;
+}
+
+/* media queries for IntroSection start */
+
+
+@media only screen and (max-width: 768px) {
+    .socialIcons{
+        width: 35vw;
+    }
+    .introText h1{
+        font-size: 3.5rem !important;
+    }
+    .introText p {
+        font-size: 19px;
+    }
+    .introText {
+        width: 50vw;
+        height: 100vh;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+/* media queries for IntroSection end */
+
+/* Media quesrie for about starts */
+
+@media only screen and (max-width: 1400px) {
+    .aboutSection img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .aboutSection {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .aboutSection img {
+        width: 50%;
+        height: 30vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .aboutSection h3 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .aboutSection p {
+        text-align: center;
+    }
+
+    .aboutSection {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+
+/* Media Queries for about ends */
+
+/* Media queries for fact section starts */
+
+@media only screen and (max-width: 1400px) {
+    .factSection {
+        height: 20vh;
+        width: 50% !important;
+    }
+
+    .mainFact {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .factSection {
+        height: 20vh;
+        width: 50% !important;
+    }
+
+    .mainFact {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+/* media queries for fact section ends */
+
+/* media queries for skills section starts */
+
+
+@media only screen and (max-width: 768px) {
+    .skillSection {
+        height: 80vh;
+    }
+
+    .skillSection {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 468px) {
+    .skillSection {
+        height: 88vh;
+    }
+
+    .skillSection {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+/* media queries for skills section ends */
+
+/* media quesries for resume section start */
+@media only screen and (max-width: 1280px){
+    .vr1 {
+        position: absolute;
+        border-left: 3px solid #0d6efd;
+        height: 202px;
+        margin-top: 52px;
+    }
+    .vr2 {
+        position: absolute;
+        border-left: 3px solid #0d6efd;
+        height: 60vh;
+        margin-top: 9px;
+    }
+    .vr3 {
+        position: absolute;
+        border-left: 3px solid #0d6efd;
+        height: 80vh;
+        margin-top: 52px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .vr1 {
+        position: absolute;
+        border-left: 3px solid #0d6efd;
+        height: 180px;
+        margin-top: 47px;
+    }
+
+    .vr2 {
+        position: absolute;
+        border-left: 3px solid #0d6efd;
+        height: 440px;
+        margin-top: 9px;
+    }
+
+    .vr3 {
+        position: absolute;
+        border-left: 3px solid #0d6efd;
+        height: 590px;
+        margin-top: 48px;
+    }
+
+    .mainResume {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .secondSection p {
+        font-size: 14px;
+    }
+    .thirdSection p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 468px){
+    .vr1 {
+        position: absolute;
+        border-left: 3px solid #0d6efd;
+        height: 227px;
+        margin-top: 47px;
+    }
+    .vr2 {
+        position: absolute;
+        border-left: 3px solid #0d6efd;
+        height: 84vh;
+        margin-top: 9px;
+    }
+    .vr3 {
+        position: absolute;
+        border-left: 3px solid #0d6efd;
+        height: 120vh;
+        margin-top: 48px;
+    }
+}
+
+@media only screen and (max-width: 380px){
+    .vr1 {
+        position: absolute;
+        border-left: 3px solid #0d6efd;
+        height: 250px;
+        margin-top: 47px;
+    }
+    .vr2 {
+        position: absolute;
+        border-left: 3px solid #0d6efd;
+        height: 99vh;
+        margin-top: 9px;
+    }
+    .vr3 {
+        position: absolute;
+        border-left: 3px solid #0d6efd;
+        height: 154vh;
+        margin-top: 48px;
+    }
+}
+
+
+
+/* media quesries for resume section ends */
+
+/* media queries for portfolio section starts */
+
+
+
+@media only screen and (max-width: 768px) {
+    .mainPortfolio {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .portfolioButtons ul {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }  
+}
+
+@media only screen and (max-width: 468px) {
+    .mainPortfolio {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .portfolioButtons ul li {
+        padding: 10px;
+    }
+}
+
+/* media queries for portfolio section ends */
+
+
+
+/* Media queries for service section starts */
+
+
+@media only screen and (max-width: 768px) {
+    .cardShadow {
+        margin: 10px;
+    }
+    .cardShadow {
+        padding: 0px !important;
+    } 
+
+    .mainServices {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 468px) {
+
+    .mainServices {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+/* Media queries for service section ends */
+
+/* media queries for testimonial start */
+
+
+@media only screen and (max-width: 768px) {
+    .mainTestimonials {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .avtar {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 468px) {
+    .mainTestimonials {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .avtar {
+        width: 100px;
+        height: 100px;
+    }
+    .carousel-control-next-icon{
+        display: none !important;
+    }
+    .carousel-control-prev-icon{
+        display: none !important;
+    }
+}
+
+/* media queries for testimonial end */
+
+/* media queries for contact section start */
+
+
+@media only screen and (max-width: 768px) {
+    .contactSection {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .contactSection .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .contactSection #form-control1 {
+        margin: 0 0 16px 0;
+    }
+}
+
+@media only screen and (max-width: 468px) {
+    .contactSection {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+
+/* media queries for contact section end */
+
+/* media quesries for footer section start */
+
+@media only screen and (max-width: 768px) {
+    .mainFooterIntro {
+        margin-top: 30px;
+        margin-bottom: 0 !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 468px) {
+    .mainFooterIntro {
+        margin-top: 30px;
+        margin-bottom: 0 !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+/* media quesries for footer section end */
