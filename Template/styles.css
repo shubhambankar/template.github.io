@@ -12,10 +12,31 @@
     background-size: cover;
     background-position: center;
 }
+.introText{
+    width: 50vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.socialIcons{
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+}
+* h2 {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+* hr {
+    margin: 10px !important;
+}
 
 .introSection h1 {
     font-size: 4rem;
-    margin-top: 200px;
+    /* margin-top: 200px; */
     
 }
 .introSection p {
@@ -48,12 +69,6 @@
     margin-bottom: 50px;
     padding-left: 4vw !important;
     padding-right: 4vw !important;
-}
-
-
-.fa-brands {
-    margin-top: 10px;
-    padding: 10px;
 }
 
 .infoSection {
@@ -188,6 +203,10 @@
     padding-right: 4vw !important;
 }
 
+.mainPortfolio p {
+    margin: 15px 0 15px 0;
+}
+
 
 .aboutImage {
     margin-top: 25px;
@@ -227,7 +246,7 @@
 }
 
 .skillSection {
-    height: 65vh;
+    height: auto;
     margin-top: 50px;
     margin-bottom: 50px;
     padding-left: 4vw !important;
@@ -237,7 +256,7 @@
 
 .skillSection p {
     margin: 0px;
-    padding: 10px;
+    padding: 10px 0 10px 0;
 }
 
 .rightPara {
@@ -305,15 +324,65 @@
     padding-right: 4vw !important;
 }
 
+/* media queries for IntroSection start */
 
 
+@media only screen and (max-width: 768px) {
+    .socialIcons{
+        width: 35vw;
+    }
+    .introText h1{
+        font-size: 3.5rem !important;
+    }
+    .introText p {
+        font-size: 19px;
+    }
+    .introText {
+        width: 50vw;
+        height: 100vh;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+/* media queries for IntroSection end */
 
 /* Media quesrie for about starts */
 
+@media only screen and (max-width: 1400px) {
+    .aboutSection img {
+        object-fit: cover;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* .aboutSection {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+    } */
+}
+
+@media only screen and (max-width: 1068px) {
+    .aboutSection {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+
 @media only screen and (max-width: 768px) {
     .aboutSection img {
-        width: 50%;
-        height: 35vh;
+        object-fit: cover;
+        width: auto;
+        height: 30vh;
         margin-left: auto;
         margin-right: auto;
     }
@@ -335,18 +404,13 @@
     }
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 468px){
     .aboutSection img {
-        display: block;
+        object-fit: cover;
+        width: auto;
+        height: 25vh;
         margin-left: auto;
         margin-right: auto;
-    }
-
-    .aboutSection {
-        margin-top: 30px;
-        margin-bottom: 30px;
-        padding-left: 15px;
-        padding-right: 15px;
     }
 }
 
@@ -355,10 +419,10 @@
 
 /* Media queries for fact section starts */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1068px) {
     .factSection {
-        height: 20vh;
-        width: 50% !important;
+        height: auto;
+        /* width: 50% !important; */
     }
 
     .mainFact {
@@ -369,9 +433,9 @@
     }
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 768px) {
     .factSection {
-        height: 20vh;
+        height: auto;
         width: 50% !important;
     }
 
@@ -387,10 +451,20 @@
 
 /* media queries for skills section starts */
 
+@media only screen and (max-width: 1068px) {
+    .skillSection {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+
 
 @media only screen and (max-width: 768px) {
     .skillSection {
-        height: 80vh;
+        height: auto;
     }
 
     .skillSection {
@@ -403,7 +477,7 @@
 
 @media only screen and (max-width: 468px) {
     .skillSection {
-        height: 90vh;
+        height: auto;
     }
 
     .skillSection {
@@ -417,57 +491,118 @@
 /* media queries for skills section ends */
 
 /* media quesries for resume section start */
-
-@media only screen and (max-width: 468px) {
+@media only screen and (max-width: 1280px){
     .vr1 {
         position: absolute;
         border-left: 3px solid #0d6efd;
-        height: 230px;
-        margin-top: 45px;
+        height: 202px;
+        margin-top: 52px;
     }
-
     .vr2 {
         position: absolute;
         border-left: 3px solid #0d6efd;
-        height: 650px;
+        height: 60vh;
         margin-top: 9px;
     }
-
     .vr3 {
         position: absolute;
         border-left: 3px solid #0d6efd;
-        height: 850px;
-        margin-top: 45px;
+        height: 80vh;
+        margin-top: 52px;
     }
+}
 
+@media only screen and (max-width: 1068px) {
     .mainResume {
         margin-top: 30px;
         margin-bottom: 30px;
         padding-left: 15px !important;
         padding-right: 15px !important;
     }
+    .vr1 {
+        position: absolute;
+        border-left: 3px solid #0d6efd;
+        height: 38vh;
+        margin-top: 50px;
+    }    
+    .vr2 {
+        position: absolute;
+        border-left: 3px solid #0d6efd;
+        height: 100vh;
+        margin-top: 9px;
+    }
+    .vr3 {
+        position: absolute;
+        border-left: 3px solid #0d6efd;
+        height: 112vh;
+        margin-top: 51px;
+    }
 }
+
+@media only screen and (max-width: 1030px) {
+    .vr1 {
+        position: absolute;
+        border-left: 3px solid #0d6efd;
+        height: 17vh;
+        margin-top: 50px;
+    }
+    .vr2 {
+        position: absolute;
+        border-left: 3px solid #0d6efd;
+        height: 44vh;
+        margin-top: 9px;
+    }
+    .vr3 {
+        position: absolute;
+        border-left: 3px solid #0d6efd;
+        height: 49vh;
+        margin-top: 51px;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .vr1 {
+        position: absolute;
+        border-left: 3px solid #0d6efd;
+        height: 21vh;
+        margin-top: 50px;
+    }
+    .vr2 {
+        position: absolute;
+        border-left: 3px solid #0d6efd;
+        height: 61vh;
+        margin-top: 9px;
+    }
+    .vr3 {
+        position: absolute;
+        border-left: 3px solid #0d6efd;
+        height: 74vh;
+        margin-top: 51px;
+    }
+}
+
+
 
 @media only screen and (max-width: 768px) {
     .vr1 {
         position: absolute;
         border-left: 3px solid #0d6efd;
-        height: 180px;
-        margin-top: 47px;
+        height: 25vh;
+        margin-top: 46px;
     }
 
     .vr2 {
         position: absolute;
         border-left: 3px solid #0d6efd;
-        height: 440px;
+        height: 63vh;
         margin-top: 9px;
     }
 
     .vr3 {
         position: absolute;
         border-left: 3px solid #0d6efd;
-        height: 590px;
-        margin-top: 48px;
+        height: 85vh;
+        margin-top: 77px;
     }
 
     .mainResume {
@@ -475,6 +610,57 @@
         margin-bottom: 30px;
         padding-left: 15px !important;
         padding-right: 15px !important;
+    }
+    .secondSection p {
+        font-size: 14px;
+    }
+    .thirdSection p {
+        font-size: 14px;
+    }
+    .mainResume ul{
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 468px){
+    .vr1 {
+        position: absolute;
+        border-left: 3px solid #0d6efd;
+        height: 227px;
+        margin-top: 47px;
+    }
+    .vr2 {
+        position: absolute;
+        border-left: 3px solid #0d6efd;
+        height: 84vh;
+        margin-top: 9px;
+    }
+    .vr3 {
+        position: absolute;
+        border-left: 3px solid #0d6efd;
+        height: 112vh;
+        margin-top: 48px;
+    }
+}
+
+@media only screen and (max-width: 380px){
+    .vr1 {
+        position: absolute;
+        border-left: 3px solid #0d6efd;
+        height: 250px;
+        margin-top: 47px;
+    }
+    .vr2 {
+        position: absolute;
+        border-left: 3px solid #0d6efd;
+        height: 99vh;
+        margin-top: 9px;
+    }
+    .vr3 {
+        position: absolute;
+        border-left: 3px solid #0d6efd;
+        height: 154vh;
+        margin-top: 48px;
     }
 }
 
@@ -484,7 +670,7 @@
 
 /* media queries for portfolio section starts */
 
-@media only screen and (max-width: 468px) {
+@media only screen and (max-width: 1068px) {
     .mainPortfolio {
         margin-top: 30px;
         margin-bottom: 30px;
@@ -493,12 +679,33 @@
     }
 }
 
+
+
+
 @media only screen and (max-width: 768px) {
     .mainPortfolio {
         margin-top: 30px;
         margin-bottom: 30px;
         padding-left: 15px !important;
         padding-right: 15px !important;
+    }
+    .portfolioButtons ul {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }  
+}
+
+@media only screen and (max-width: 468px) {
+    .mainPortfolio {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .portfolioButtons ul li {
+        padding: 10px;
     }
 }
 
@@ -508,10 +715,23 @@
 
 /* Media queries for service section starts */
 
-@media only screen and (max-width: 468px) {
+@media only screen and (max-width: 1068px) {
+    .mainServices {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
     .cardShadow {
         margin: 10px;
     }
+    .cardShadow {
+        padding: 0px !important;
+    } 
 
     .mainServices {
         margin-top: 30px;
@@ -521,10 +741,7 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
-    .cardShadow {
-        margin: 10px;
-    }
+@media only screen and (max-width: 468px) {
 
     .mainServices {
         margin-top: 30px;
@@ -537,18 +754,17 @@
 /* Media queries for service section ends */
 
 /* media queries for testimonial start */
-@media only screen and (max-width: 468px) {
+
+@media only screen and (max-width: 1068px) {
     .mainTestimonials {
         margin-top: 30px;
         margin-bottom: 30px;
         padding-left: 15px !important;
         padding-right: 15px !important;
     }
-    .avtar {
-        width: 100px;
-        height: 100px;
-    }
 }
+
+
 
 @media only screen and (max-width: 768px) {
     .mainTestimonials {
@@ -563,11 +779,30 @@
     }
 }
 
+@media only screen and (max-width: 468px) {
+    .mainTestimonials {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .avtar {
+        width: 100px;
+        height: 100px;
+    }
+    .carousel-control-next-icon{
+        display: none !important;
+    }
+    .carousel-control-prev-icon{
+        display: none !important;
+    }
+}
+
 /* media queries for testimonial end */
 
 /* media queries for contact section start */
 
-@media only screen and (max-width: 468px) {
+@media only screen and (max-width: 1068px) {
     .contactSection {
         margin-top: 30px;
         margin-bottom: 30px;
@@ -576,7 +811,24 @@
     }
 }
 
+
 @media only screen and (max-width: 768px) {
+    .contactSection {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .contactSection .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .contactSection #form-control1 {
+        margin: 0 0 16px 0;
+    }
+}
+
+@media only screen and (max-width: 468px) {
     .contactSection {
         margin-top: 30px;
         margin-bottom: 30px;
@@ -590,7 +842,7 @@
 
 /* media quesries for footer section start */
 
-@media only screen and (max-width: 468px) {
+@media only screen and (max-width: 1068px) {
     .mainFooterIntro {
         margin-top: 30px;
         margin-bottom: 0 !important;
@@ -599,7 +851,17 @@
     }
 }
 
+
 @media only screen and (max-width: 768px) {
+    .mainFooterIntro {
+        margin-top: 30px;
+        margin-bottom: 0 !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 468px) {
     .mainFooterIntro {
         margin-top: 30px;
         margin-bottom: 0 !important;
